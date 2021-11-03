@@ -16,7 +16,7 @@ The designs were created to the following widths:
 
 ### Neutral
 
-- Very pale blue: hsl(225, 100%, 98%)
+- Very pale blue: hsl(223, 47%, 23%)
 - Desaturated blue: hsl(224, 23%, 55%)
 - Dark blue: hsl(223, 47%, 23%)
 
