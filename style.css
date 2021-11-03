@@ -1,4 +1,37 @@
 body {
-    background-color: hsl(245, 75%, 52%);
-    background-image: url("./images/pattern-background-desktop.svg");
+  background-color: hsl(245, 75%, 52%);
+  background-image: url("./images/pattern-background-desktop.svg");
+}
+
+.card-body {
+  text-align: center;
+  align-items: center;
+  font-family: "Red Hat Display", sans-serif;
+}
+.card-title {
+  font-weight: 900;
+  text-align: center;
+}
+
+.p > .span {
+  font-weight: 900;
+  font-size: 16px;
+}
+
+.nav-header {
+  font-weight: 700;
+}
+
+a {
+  color: hsl(245, 75%, 52%);
+  font-weight: 500;
+}
+
+.btn-primary {
+  box-shadow: 10px 5px 5px hsl(223, 65%, 73%);
+  color: hsl(224, 23%, 55%);
+}
+
+.a > .btn-outline-light { 
+    font-weight: 900;
 }
