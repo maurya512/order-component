@@ -1,37 +1,58 @@
+/* the body of the component */
 body {
   background-color: hsl(245, 75%, 52%);
+  justify-content: space-between;
   background-image: url("./images/pattern-background-desktop.svg");
 }
 
+/* The main card body */
 .card-body {
   text-align: center;
   align-items: center;
   font-family: "Red Hat Display", sans-serif;
 }
+
+/* Order summary */
 .card-title {
   font-weight: 900;
   text-align: center;
 }
 
+/* styling for a specific portion of the plan */
 .p > .span {
   font-weight: 900;
   font-size: 16px;
 }
 
+/* Annual plan and pricing */
 .nav-header {
   font-weight: 700;
 }
 
+/* anchor tag properties, change */
 a {
   color: hsl(245, 75%, 52%);
   font-weight: 500;
 }
 
+/* proceed to payment button changes */
 .btn-primary {
+margin-top: 10px;
   box-shadow: 10px 5px 5px hsl(223, 65%, 73%);
   color: hsl(224, 23%, 55%);
+  width: 100%;
 }
 
-.a > .btn-outline-light { 
-    font-weight: 900;
+.a > .btn-outline-light {
+  margin-top: 10px;
+  font-weight: 900;
+}
+
+.container {
+  justify-content: space-between;
+}
+
+/* rounded edges for the navbar */
+.navbar {
+  border-radius: 15px;
 }
