@@ -5,13 +5,12 @@ body {
   background-image: url("./images/pattern-background-desktop.svg");
 }
 
-.container { 
-  margin: 0;
-  /* position: absolute; */
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  /* transform: translate(-50%, -50%); */
+.container {
+  display: flex;
+  justify-content: center;
+  /* flex-direction: row; */
+  align-items: center;
+  margin-top: 75px;
 }
 
 /* The main card body */
@@ -39,11 +38,6 @@ body {
   font-size: 16px;
 }
 
-/* Annual plan and pricing */
-/* .nav-header {
-  font-weight: 700;
-} */
-
 /* anchor tag properties, change */
 a {
   color: hsl(245, 75%, 52%);
@@ -54,10 +48,9 @@ a:hover {
   text-decoration: none;
 }
 
-
 /* proceed to payment button changes */
 .btn-primary {
-margin-top: 20px;
+  margin-top: 20px;
   box-shadow: 10px 5px 5px hsl(223, 65%, 73%);
   color: hsl(245, 75%, 52%);
   width: 100%;
@@ -82,3 +75,19 @@ margin-top: 20px;
   color: black;
   font-weight: bolder;
 }
+
+@media screen and (max-width: 1440px) {
+  .body { 
+    width: 100%;
+    background-image: url(./images/pattern-background-desktop.svg);
+  }
+}
+
+/* by defining the screen size using min width we are making the web page mobile first and in turn it will load faster */
+@media screen and (max-width: 375px) {
+  .body {
+    width: 100%;
+    background-image: url(./images/pattern-background-mobile.svg);
+  }
+}
+
